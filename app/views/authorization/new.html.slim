@@ -1,0 +1,4 @@
+= simple_form_for :authorization, :url => authorize_path(params.slice(:redirect_uri, :client_id, :client_secret)) do |f|
+  p Authorize this application?
+  = f.submit "Yes", :value => 'Yes'
+  = f.submit "No", :value => 'No'
