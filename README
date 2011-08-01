@@ -4,13 +4,3 @@ based on https://github.com/freerange/oauth2-provider
 
 incorporating devise for user authentication 
 
-to-do:
------
-
-create clients on the provider by config file
-
-omniauth capable client for rails
-
-python, *  clients
-
-returned hash customization 
