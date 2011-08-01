@@ -1,0 +1,2 @@
+module Backend::AdministrationHelper
+end

@@ -8,6 +8,8 @@ gem 'rails', '3.0.9'
 gem 'sqlite3'
 
 gem 'devise'
+gem 'cancan'
+gem 'role_model'
 
 gem 'oauth2-provider'
 
@@ -19,7 +21,7 @@ gem 'slim'
 gem 'slim-rails'
 
 
-
+#gem 'inherited_resources'
 
 # Use unicorn as the web server
 # gem 'unicorn'

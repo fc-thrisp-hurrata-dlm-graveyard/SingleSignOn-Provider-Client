@@ -58,6 +58,7 @@ ActiveRecord::Schema.define(:version => 20110722143836) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.string   "appwide_key"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
