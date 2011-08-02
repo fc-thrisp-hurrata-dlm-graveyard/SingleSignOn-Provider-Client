@@ -1,0 +1,2 @@
+class ApplicationauthenticationController < ApplicationController
+end

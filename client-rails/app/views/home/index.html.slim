@@ -1,0 +1,6 @@
+h1 Home#index
+p Find me in app/views/home/index.html.slim
+p= link_to('Logout', logout_path, :method => 'delete')
+p= @ok
+p= session.inspect
+p= request.env.inspect
