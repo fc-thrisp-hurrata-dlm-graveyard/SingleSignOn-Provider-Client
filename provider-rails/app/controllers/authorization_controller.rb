@@ -7,10 +7,8 @@ class AuthorizationController < ApplicationController
 
   def new
     session[:current_account] = current_user.email
-    session[:current_key] = current_user.appwide_key
     @client = oauth2_authorization_request.client
     grant_authorization_code(current_user)
-    #session[:current_account] = current_user.email
   end
 
   #def create
@@ -22,6 +20,7 @@ class AuthorizationController < ApplicationController
   #end
 
 private
+
   def regrant_existing_authorization
     oauth2_authorization_request.grant_existing! current_user
   end

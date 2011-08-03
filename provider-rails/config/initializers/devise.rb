@@ -64,7 +64,7 @@ Devise.setup do |config|
   config.stretches = 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "05ca6960b577b33ce200aa9d315a77626939a16436c2473b3c157796efc25782e663be12c32389d8fe1a6001520b9732aa0908b5df1faecb2e1d4f6aefb84a4a"
+  # config.pepper = "a2e6ad264cd43af356134e9805273d5c43991908602e8d1c5d44659d71180f31fff85775597882a2657c6246788edf491f6268270753bc960b97965a7d9c6869"
 
   # ==> Configuration for :confirmable
   # The time you want to give your user to confirm his account. During this time
@@ -165,7 +165,7 @@ Devise.setup do |config|
 
   # Configure the default scope given to Warden. By default it's the first
   # devise role declared in your routes (usually :user).
-  config.default_scope = :user
+  # config.default_scope = :user
 
   # Configure sign_out behavior.
   # Sign_out action can be scoped (i.e. /users/sign_out affects only :user scope).
